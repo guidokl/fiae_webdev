@@ -1,0 +1,162 @@
+body {
+  background-color: #10111b;
+  color: #dfdfdf;
+  font-family: Arial, sans-serif;
+  width: 70%;
+  margin: 0 auto;
+}
+
+header {
+  color: #b4b4b4;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-family: "Bitcount Prop Single", system-ui;
+  font-optical-sizing: not;
+  font-weight: 300;
+  font-size: 100px;
+  margin: 0;
+  margin-top: 0.1em;
+}
+
+footer {
+  color: #b4b4b4;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+img {
+  align-self: center;
+}
+
+section {
+  border-radius: 10px;
+  border: 1px solid #9ddfd9;
+  padding: 5px;
+  margin: 10px;
+}
+
+main section {
+  border-radius: 10px;
+  border: 1px solid #9ddfd9;
+  padding: 5px;
+  margin: 10px;
+}
+
+nav {
+  border-radius: 10px;
+  border: 1px solid #9ddfd9;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 0px;
+
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+a:link {
+  color: #8bffdc;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #8bffdc;
+  text-decoration: none;
+
+}
+
+#container {
+  display: flex;
+}
+
+#right {
+  height: 100%;
+}
+
+#center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+#summary {
+  font-size: small;
+}
+
+#game {
+  width: 100%;
+}
+
+#player_1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: bottom;
+	background-image: url("../img/player_1.png");
+	background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.p1_1 {
+  width: 115px;
+  height: 145px;
+	margin: 0px 0px 0px 0px;
+  background-position: 0px 0px;
+}
+
+.p1_2 {
+  width: 115px;
+  height: 145px;
+	margin: 0px 0px 0px 0px;
+  background-position: -115px 0px;
+}
+
+.p1_3 {
+  width: 115px;
+  height: 145px;
+  margin: 0px 0px 0px 0px;
+  background-position: -230px 0px;
+}
+
+.p1_4 {
+  width: 115px;
+  height: 145px;
+  margin: 0px 0px 0px 0px;
+  background-position: -345px 0px;
+}
+
+.p1_5 {
+  width: 115px;
+  height: 150px;
+  margin: 0px 0px 0px 0px;
+  background-position: 0px -150px;
+}
+
+.p1_6 {
+  width: 115px;
+  height: 150px;
+  margin: 0px 0px 0px 0px;
+  background-position: -115px -150px;
+}
+
+.p1_7 {
+  width: 115px;
+  height: 150px;
+  margin: 0px 0px 0px 0px;
+  background-position: -230px -150px;
+}
+
+.p1_8 {
+  width: 115px;
+  height: 150px;
+  margin: 0px 0px 0px 0px;
+  background-position: -345px -150px;
+}
